@@ -1,4 +1,4 @@
-require_relative 'user'
+require_relative '../user'
 
 describe User do
    let(:user) { User.new(name: 'たろう', age: age) }
